@@ -1,0 +1,31 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jest-puppeteer.config.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "jest": "^24.8.0",
+    "jest-cucumber": "^2.0.11",
+    "jest-environment-node": "^24.8.0",
+    "jest-puppeteer": "^4.2.0",
+    "puppeteer": "^1.17.0"
+  },
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-puppeteer",
+    "testMatch": [
+      "./**/**/testSteps.js"
+    ]
+  },
+  "author": "Esteban Gutierrez",
+  "license": "ISC"
+}
